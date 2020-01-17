@@ -1,0 +1,86 @@
+Python Notes
+print 
+
+print("Hello")
+print(1)
+print(1.5)
+
+print("hello"+"world")- to combine 2 string data
+
+USE SPACE
+
+Manual way-+(no space only combine)
+Automatic way - instead of +,use comma(combine the data),by default only one space
+
+ATTRIBUTE FOR COMMA _seperator(sep),TO CHANGE THE DEFAULT BEHAVIOUR OF COMMA    
+
+example:print("Hello"+"World")
+HelloWorld
+
+print("Hello","World",sep=" ")
+Hello World
+
+print("Hello","World",sep="$")
+Hello$World
+
+TO PRINT A STRING
+
+TO print data or string more than 5 times = string*(no. of tyms to display)
+
+print("Hello"*5)
+HelloHelloHelloHelloHello
+
+/n is automated in print statement
+/r also can be used for next line(CARRIGE RETURN)
+
+" "it will rewrite the new line.TO CHANGE THE AUTOMATIC NEW LINE CHARACTER,END CAN BE USED
+end specifies how the printing statement should end.
+
+
+DEALING WITH DATA
+
+Variable
+A space where data get stored.
+In python,no need to declare a variable.
+
+STRING " ",' ' CAN BE USED
+
+RULES
+The variable name must start with alphabetical letter or UNDERSCORE._abc,1st_name,last_name
+___a (valid)
+Variable may contain numbers and special symbols
+Variable may not contain any operators or keywords(variable no operators can e used)(a - b =100 INVALID)
+
+INPUT FUNCTION
+
+input(message) and store it n a variable
+USED TO GET INPUT FROM USER
+DEFAULT INPUT IS A STRING.
+
+PROMPT MEANS ASKING THE USER FOR INPUT.
+
+ZERO DIVISION ERROR
+ 8/0
+ZeroDivisionError: division by zero
+
+FORMATTED OUTPUT
+
+Syntax
+format_string%<data>
+Format string-%<field_width><format_string>
+
+QUESTIONS:
+ DISPLAY SALARY OF EMPLOYEE IN A TABULAR FORMAT
+
+TWO ALIGNMENT
++ve RIGHT ALIGNMENT
+-ve LEFT ALIGNMENT
+
+
+
+
+
+
+
+
+
